@@ -171,12 +171,10 @@ Use [INSERT ...] placeholders where information is missing.
 
                 config=types.GenerateContentConfig(
 
-                    temperature=0.2,
-
-                    max_output_tokens=(
-                        self.settings.max_output_tokens
-                    ),
-                ),
+    max_output_tokens=(
+        self.settings.max_output_tokens
+    ),
+),
             )
 
             text = (
